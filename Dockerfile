@@ -1,1 +1,2 @@
-FROM nginx:mainline-alpine
+FROM httpd:latest
+COPY ./html /usr/local/apache2/htdocs/
